@@ -1,0 +1,4 @@
+/node_modules
+/example/node_modules
+/coverage
+/example/TEST-htmlhint.xml

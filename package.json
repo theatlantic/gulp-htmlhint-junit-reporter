@@ -1,0 +1,58 @@
+{
+  "name": "gulp-htmlhint-junit-reporter",
+  "version": "1.0.0",
+  "description": "junit reporter for gulp-htmlhint",
+  "main": "index.js",
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "_mocha": "_mocha",
+    "test": "istanbul cover _mocha"
+  },
+  "directories": {
+    "test": "test/"
+  },
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theatlantic/gulp-htmlhint-junit-reporter.git"
+  },
+  "keywords": [
+    "htmlhint",
+    "gulp-htmlhint",
+    "reporter",
+    "htmlhint-reporter",
+    "formatter",
+    "format",
+    "lint",
+    "validate",
+    "junit",
+    "elegant",
+    "pretty",
+    "jenkins"
+  ],
+  "author": {
+    "name": "Frankie Dintino",
+    "email": "fdintino@theatlantic.com"
+  },
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "gulp-util": "^3.0.8"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-fs": "^2.0.0",
+    "fs-extra": "^5.0.0",
+    "gulp-htmlhint": "^1.0.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^4.1.0",
+    "proxyquire": "^1.8.0",
+    "sinon": "^4.1.3",
+    "sinon-chai": "^2.14.0",
+    "vinyl-fs": "^3.0.1",
+    "xmldom": "^0.1.27"
+  }
+}

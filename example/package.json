@@ -1,0 +1,10 @@
+{
+  "name": "htmlhint-checkstyle-example",
+  "version": "0.0.1",
+  "devDependencies": {
+    "gulp": "~3.9.0",
+    "gulp-htmlhint": "^0.3.1",
+    "gulp-htmlhint-junit-reporter": "file:.."
+  },
+  "dependencies": {}
+}
