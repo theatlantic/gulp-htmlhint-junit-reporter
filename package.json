@@ -1,6 +1,6 @@
 {
   "name": "gulp-htmlhint-junit-reporter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "junit reporter for gulp-htmlhint",
   "main": "index.js",
   "engines": {
@@ -10,12 +10,6 @@
     "_mocha": "_mocha",
     "test": "istanbul cover _mocha"
   },
-  "directories": {
-    "test": "test/"
-  },
-  "files": [
-    "index.js"
-  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/theatlantic/gulp-htmlhint-junit-reporter.git"
